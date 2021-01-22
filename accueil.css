@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Fraunces:wght@100&family=Playfair+Display&family=Yusei+Magic&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*home styling*/
+
+.home{
+    margin: 40px 60px;
+}
+
+
+span{
+    font-family: none;
+    color: #111;
+}
+
+.register li a{
+    display: block;
+    color: #111;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -40px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.register li {
+    list-style: none;
+    float: right;
+}
+
+.register .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    float: right;
+}
+
+.menu-2 li {
+    list-style: none;
+    float: right;
+}
+
+.menu-2 .menu-tool {   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.menu-2{
+    background-color: rgb(241, 121, 8) ;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+}
+
+.menu-2 .menu-tool a{
+    color: #fff;
+    font-weight: 600;
+    margin-left: 5px;
+    height: 40px;
+    font-family: 'Arial';
+    text-decoration: none;
+}
+
+.register .menu .blue{
+    background-color: rgb(0, 162, 255);
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.pub{
+    height: 150px;
+    width: 90%;
+    border-style: solid;
+    border-color: #f9c000;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.home .pub div.message{
+    width: 93%;
+    float: right;
+    margin: 10px 0px;
+}
+
+.home .pub div.panneau{
+    width: 5%;
+    float: left;
+    background-color: #f9c000;
+}
+
+.home .pub div.panneau img{
+    height: 46px;
+    width: 50px;
+    margin: 50px 5px;
+}
+
+.home .pub div.message .title,
+.home .pub div.message .message-1{
+    margin-top: 30px;
+}
+
+/* bild section styling*/
+
+.bild1{
+    height: 500px;
+    width: 90%;
+    margin: 10px 120px;
+}
+
+.list{
+    margin-top: -250px;
+    margin-left: 50px;
+    background-color: rgba(255, 255, 255, 0.315);
+    width: 80%;
+    text-align: center;
+}
+
+.list .list1 li{
+    display: inline-block;
+}
+
