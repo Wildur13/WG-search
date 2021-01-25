@@ -10,7 +10,6 @@
     margin: 40px 60px;
 }
 
-
 span{
     font-family: none;
     color: #111;
@@ -39,6 +38,10 @@ span{
     float: right;
 }
 
+.menu-2{
+    margin-top: -30px;
+}
+
 .menu-2 li {
     list-style: none;
     float: right;
@@ -52,6 +55,34 @@ span{
     margin-top: 40px;
     text-align: center;
     padding-top: 10px;
+}
+
+.menu-2 .menu-tool li::before{
+    content: " ";
+    height: 0;
+    position: relative;
+    top: 14px;
+    width: 0;
+    z-index: 1;
+    right: 25px;
+    border: medium solid #00abe9;
+    border-width: 8px 8px 8px 8px;
+    border-color: white transparent transparent;
+    cursor: pointer;
+}
+
+.menu-2 .menu-tool .special::after{
+    content: "";
+    width: 0;
+    height: 0;
+    top: 14px;
+    z-index: 5;
+    right: -20px;
+    position: relative;
+    border: medium solid #00abe9;
+    border-width: 8px 8px 8px;
+    border-color:rgb(241, 121, 8) transparent transparent transparent;
+    cursor: none;
 }
 
 .menu-2{
@@ -74,7 +105,12 @@ span{
     background-color: rgb(0, 162, 255);
     color: #fff;
     border-radius: 10px;
-    font-family: 'Playfair Display', serif;
+    padding: 7px 20px;
+}
+
+.register .menu .blue:hover{
+    background: aqua;
+    color: #111;
 }
 
 .pub{
@@ -84,6 +120,7 @@ span{
     border-color: #f9c000;
     border-radius: 10px;
     margin: 20px auto;
+    overflow: hidden;
 }
 
 .home .pub div.message{
@@ -96,36 +133,104 @@ span{
     width: 5%;
     float: left;
     background-color: #f9c000;
+    overflow: hidden;
 }
 
 .home .pub div.panneau img{
     height: 46px;
     width: 50px;
     margin: 50px 5px;
+    
 }
 
 .home .pub div.message .title,
 .home .pub div.message .message-1{
-    margin-top: 30px;
+    margin-top: 20px;
+}
+
+.home .options{
+    z-index: 100;
+    background-color: whitesmoke;
+    background-size: contain;
+    height: 250px;
+    width: 200px;
+    text-align: left;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: -150px;
+}
+
+.home .options li{
+    list-style: none;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.home .options a{
+    text-decoration: none;
 }
 
 /* bild section styling*/
 
-.bild1{
-    height: 500px;
-    width: 90%;
-    margin: 10px 120px;
+.list{
+    display: inline-block;
+    position: relative;
+    margin-left: 150px;
 }
 
-.list{
-    margin-top: -250px;
-    margin-left: 50px;
-    background-color: rgba(255, 255, 255, 0.315);
-    width: 80%;
-    text-align: center;
+.list img{
+    border-radius: 10px;
 }
 
 .list .list1 li{
     display: inline-block;
+    justify-content: space-between;
+    margin-left: 30px;
+    text-align: center;
 }
 
+.list .list1 {
+    text-align: left;
+}
+
+.list .liste{
+    background: rgba(255, 255, 255, 0.541);
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    width: 70%;
+    margin-top: -250px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.list .liste h2{
+    margin: 5px auto;
+    text-align: left;
+}
+
+.list .liste .list1 .finden{
+    background: #00abe9;
+    border: #00abe9;
+    border-radius: 5px;
+    color: white;
+}
+
+.list .liste .list1 .finden:hover{
+    color: #111;
+    background-color: aqua;
+}
+
+.list .liste .list1 .stadt,
+.list .liste .list1 #zimmer,
+.list .liste .list1 #angebot,
+.list .liste .list1 .finden{
+    padding: 5px 20PX;
+    cursor: pointer;
+}
