@@ -152,7 +152,7 @@ span{
     z-index: 100;
     background-color: whitesmoke;
     background-size: contain;
-    height: 250px;
+    height: 300px;
     width: 200px;
     text-align: left;
     justify-content: space-between;
@@ -164,7 +164,7 @@ span{
     list-style: none;
     display: block;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 20px;
     margin-left: 10px;
 }
 
