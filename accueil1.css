@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*home styling*/
+.home {
+  margin: 40px 60px;
+  z-index: 10;
+}
+.home .register {
+  float: right;
+  margin-top: -50px;
+}
+.home .options {
+  height: 300px;
+  width: auto;
+}
+.home .options .options-1 {
+  position: fixed;
+}
+.home .options .options-1 .angebot-options {
+  display: none;
+  margin-left: 40px;
+  background: whitesmoke;
+  height: 295px;
+  padding: 10px;
+}
+.home .options .options-1 .angebot-options ul {
+  list-style: none;
+}
+.home .options .options-1 .angebot-options ul li {
+  padding: 20px;
+  text-align: left;
+}
+.home .options .options-1 .angebot-options ul li:hover {
+  background-color: rgba(255, 166, 0, 0.767);
+}
+.home .options .options-1 .angebot-options.show1 {
+  margin-top: -30px;
+  display: block;
+}
+.home .options .options-1 .gesuche-options {
+  display: none;
+  margin-left: -15px;
+  background: whitesmoke;
+  height: 290px;
+  padding: 10px;
+}
+.home .options .options-1 .gesuche-options ul {
+  list-style: none;
+}
+.home .options .options-1 .gesuche-options ul li {
+  padding: 20px;
+  text-align: left;
+}
+.home .options .options-1 .gesuche-options ul li:hover {
+  background-color: rgba(255, 166, 0, 0.767);
+}
+.home .options .options-1 .gesuche-options.show2 {
+  display: block;
+  margin-left: 220px;
+  margin-top: -30px;
+}
+.home .options .options-1 .mein-options {
+  display: none;
+  margin-left: -10px;
+  background: whitesmoke;
+  height: 235px;
+  padding: 10px;
+}
+.home .options .options-1 .mein-options ul {
+  list-style: none;
+}
+.home .options .options-1 .mein-options ul li {
+  padding: 20px;
+  text-align: left;
+}
+.home .options .options-1 .mein-options ul li:hover {
+  background-color: rgba(255, 166, 0, 0.767);
+}
+.home .options .options-1 .mein-options.show3 {
+  display: block;
+  margin-left: 400px;
+  margin-top: -30px;
+}
+.home .options .options-1 .hilfe-options {
+  display: none;
+  margin-left: 10px;
+  background: whitesmoke;
+  height: 235px;
+  padding: 10px;
+}
+.home .options .options-1 .hilfe-options ul {
+  list-style: none;
+}
+.home .options .options-1 .hilfe-options ul li {
+  padding: 20px;
+  text-align: left;
+}
+.home .options .options-1 .hilfe-options ul li:hover {
+  background-color: rgba(255, 166, 0, 0.767);
+}
+.home .options .options-1 .hilfe-options.show4 {
+  display: block;
+  margin-left: 650px;
+  margin-top: -30px;
+}
+.home .options .options-1 .info-options {
+  display: none;
+  margin-left: 70px;
+  background: whitesmoke;
+  height: 470px;
+  padding: 10px;
+}
+.home .options .options-1 .info-options ul {
+  list-style: none;
+}
+.home .options .options-1 .info-options ul li {
+  padding: 20px;
+  text-align: left;
+}
+.home .options .options-1 .info-options ul li:hover {
+  background-color: rgba(255, 166, 0, 0.767);
+}
+.home .options .options-1 .info-options.show5 {
+  display: block;
+  margin-left: 880px;
+  margin-top: -30px;
+}
+.home .options .options-1 li.options-n {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.home .menu-2 {
+  background: orange;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.home .menu-2 .menu-tool li {
+  display: inline-block;
+  justify-content: space-between;
+}
+.home .menu-2 .menu-tool li a {
+  padding: 40px;
+  text-decoration: none;
+  color: white;
+  font-family: "Arial";
+  font-weight: 700;
+}
+.home .menu-2 .menu-tool li::before {
+  content: " ";
+  height: 0;
+  position: relative;
+  top: 12px;
+  width: 0;
+  z-index: 1;
+  right: 40px;
+  border: medium solid #00abe9;
+  border-width: 8px 8px 8px 8px;
+  border-color: white transparent transparent;
+  cursor: pointer;
+}
+
+.register .inser-options {
+  position: relative;
+  float: right;
+  margin-right: 20px;
+  background: whitesmoke;
+  margin-top: 8px;
+  text-align: left;
+  display: none;
+  overflow: hidden;
+}
+.register .inser-options li {
+  list-style: none;
+  padding: 20px;
+  text-decoration: none;
+}
+.register .inser-options li:hover {
+  background-color: rgba(255, 166, 0, 0.767);
+}
+.register .inser-options a {
+  padding: 20px;
+  text-decoration: none;
+}
+.register .inser-options a:hover {
+  color: #000;
+}
+.register .inser-options.show {
+  display: block;
+}
+.register .menu .blue {
+  padding: 10px;
+  background: #077be7;
+  border-radius: 10px;
+  color: white;
+}
+.register .menu li {
+  display: inline-block;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.register .menu li a {
+  text-decoration: none;
+}
+
+/*pub styling*/
+.pub {
+  height: 150px;
+  width: 90%;
+  border-style: solid;
+  border-color: #f9c000;
+  border-radius: 10px;
+  margin: 20px auto;
+  overflow: hidden;
+  margin-top: -330px;
+}
+
+.pub div.message {
+  width: 93%;
+  float: right;
+  margin: 10px 0px;
+}
+
+.pub div.panneau {
+  width: 5%;
+  float: left;
+  background-color: #f9c000;
+  overflow: hidden;
+}
+
+.pub div.panneau img {
+  height: 46px;
+  width: 50px;
+  margin: 50px 16px;
+  overflow: hidden;
+}
+
+.pub div.message .title,
+.pub div.message .message-1 {
+  margin-top: 25px;
+}
+
+/* bild  styling*/
+.list::before {
+  content: url("/img/portal_003.jpg");
+  margin: 10px 300px;
+}
+
+.list .list1 li {
+  display: inline-block;
+  justify-content: space-between;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.list .list1 {
+  text-align: left;
+}
+
+.list .liste {
+  background: rgba(255, 255, 255, 0.541);
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  font-family: Georgia;
+  margin: 0 550px 0 auto;
+  left: 0;
+  right: 0;
+  top: 30%;
+  width: 50%;
+  margin-top: -250px;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.list .liste h2 {
+  margin: 10px auto;
+  text-align: left;
+}
+
+.list .liste .list1 .finden {
+  background: #00abe9;
+  border: #00abe9;
+  border-radius: 5px;
+  color: white;
+}
+
+.list .liste .list1 .finden:hover {
+  color: #111;
+  background-color: aqua;
+}
+
+.list .liste .list1 .stadt,
+.list .liste .list1 #zimmer,
+.list .liste .list1 #angebot,
+.list .liste .list1 .finden {
+  padding: 5px 40PX;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=accueil1.css.map */
