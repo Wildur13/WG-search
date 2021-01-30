@@ -404,7 +404,7 @@ footer {
 @media (max-width: 1440px) {
   .list::before {
     content: url("/img/portal_003.jpg");
-    margin: 10px 130px;
+    margin: 10px 90px;
   }
 
   .list .liste {
