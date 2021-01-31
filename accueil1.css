@@ -186,6 +186,7 @@
   cursor: pointer;
 }
 
+/* end home section styling*/
 .register .inser-options {
   position: relative;
   float: right;
@@ -274,7 +275,7 @@
 }
 
 .list::before {
-  content: url("/img/portal_003.jpg");
+  content: url(https://source.unsplash.com/user/erondu/daily);
   margin: 10px 300px;
 }
 
@@ -509,6 +510,12 @@ footer {
     display: block;
     margin-left: 670px;
     margin-top: -23px;
+  }
+
+  .pub div.panneau img {
+    height: 46px;
+    width: 50px;
+    margin: 50px 7px;
   }
 }
 

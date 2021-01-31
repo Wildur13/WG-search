@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 }
-
+$color: whitesmoke;
 /*home styling*/
 
 .home{
@@ -22,7 +22,7 @@
             .angebot-options{
                 display: none;
                 margin-left: 40px;
-                background: whitesmoke;
+                background: $color;
                 height: 240px;
                 padding: 10px;
                 ul{
@@ -192,6 +192,9 @@
     }
 }
 
+/* end home section styling*/
+
+
 .register {
     .inser-options{
         position: relative;
@@ -286,7 +289,7 @@
     height: 450px;
 }
 .list::before{
-    content: url('/img/portal_003.jpg');
+    content: url(https://source.unsplash.com/user/erondu/daily);
     margin: 10px 300px;
 }
 
@@ -538,4 +541,11 @@ footer{
             }
         }      
     }
+    .pub div.panneau img{
+        height: 46px;
+        width: 50px;
+        margin: 50px 7px;
+        
+    }
+    
 }
