@@ -1,6 +1,7 @@
 @function count($id){   
     @if $id == 6 {
         $id: 0;
+        @return $id;
     }
     @else{
         @return $id + 1;

@@ -406,7 +406,7 @@ footer {
 @media (max-width: 1440px) {
   .list::before {
     content: url(https://www.wg-gesucht.de/img/startseite/portal_000.jpg);
-    margin: 10px 300px;
+    margin: 10px 100px;
   }
 
   .list .liste {

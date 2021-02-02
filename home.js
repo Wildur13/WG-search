@@ -60,4 +60,5 @@ $(document).ready(function(){
     }, function(){
         $('.info-options').removeClass("show5");
     });
+
 });
