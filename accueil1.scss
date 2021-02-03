@@ -7,8 +7,7 @@
     padding: 0;
 }
 $color: whitesmoke;
-$id: 0;
-$i: count($id);
+$i: count(4);
 /*home styling*/
 
 .home{
@@ -426,8 +425,8 @@ footer{
 
 @media (max-width: 1440px){
     .list::before{
-        content: url(https://www.wg-gesucht.de/img/startseite/portal_00#{$id}.jpg);
-        margin: 10px 100px;
+        content: url(https://www.wg-gesucht.de/img/startseite/portal_00#{$i}.jpg);
+        margin: 10px 150px;
     }
     .list .liste{
         background: rgba(255, 255, 255, 0.541);
@@ -436,10 +435,10 @@ footer{
         text-align: center;
         font-family: Georgia;
         margin: 0 190px 0 auto;
-        left: 0;
+        left: -30px;
         right: 0;
         top: 30%;
-        width: 70%;
+        width: 68%;
         margin-top: -400px;
         border-radius: 5px;
         padding: 25px;
@@ -555,7 +554,7 @@ footer{
     .informations{
         margin-top: 60px;
         padding: 15px;
-        margin-left: 80px;
+        margin-left: 135px;
         .nutz{
             float: left;
             display: block;
@@ -592,7 +591,7 @@ footer{
                 color: white;
                 border: orange;
                 border-radius: 10px;
-                margin: 19px auto;
+                margin: 38px auto;
                 font-weight: 600;
                 cursor: pointer;
             }
@@ -618,6 +617,10 @@ footer{
                         background: #ccc;
                         border-radius: 7px;
                         border: none;
+                    }
+                    input[type=button]:hover{
+                        background-color: #f9bf0083;
+                        cursor: pointer;
                     }
                     input[type=text]{
                         padding: 10px;
